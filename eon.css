@@ -1,0 +1,918 @@
+<div class="sheet-wrapper">
+    <div class="sheet-col" style="margin-bottom:-30px;">
+        <img src="https://shop.textalk.se/shop/ws51/49251/files//Helmgast-Svart-600.png" style="max-height: 100px; margin-left:21%;"/>
+    </div>
+<!-- Logo Header -->
+<div class="sheet-1colrow">
+
+</div>
+<!-- Base Character Information -->
+<div class="sheet-1colrow">
+    <div class="sheet-col">
+
+        <div class="sheet-row">
+            <div class="sheet-item" style="width:13.2%"><label>Namn</label></div>
+            <div class="sheet-item sheet-large"><input type="text" name="attr_character_name" /></div>
+            <div class="sheet-item sheet-tiny"><label>Spelare</label></div>
+            <div class="sheet-item sheet-large"><input type="text" name="attr_playername" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-little"><label>Folkslag</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_folkslag" /></div>
+            <div class="sheet-item sheet-little"><label>Hemstad</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_hometown" /></div>
+            <div class="sheet-item sheet-little"><label>Bakgrund</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_background" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-little"><label>Arketyp</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_archtype"/></div>
+            <div class="sheet-item sheet-puny"><label>Miljö</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_enviroment" /></div>
+            <div class="sheet-item sheet-puny"><label>Religion</label></div>
+            <div class="sheet-item sheet-med"><input type="text" name="attr_religion"/></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-puny"><label>Kön</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_gender" /></div>
+            <div class="sheet-item sheet-puny"><label>Längd</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_height" /></div>
+            <div class="sheet-item sheet-puny"><label>Vikt</label></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_weight" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-row">
+                <div class="sheet-item sheet-little"><label>Hudfärg</label></div>
+                <div class="sheet-item sheet-tiny"><input type="text" name="attr_skincolour" /></div>
+                <div class="sheet-item sheet-little"><label>Hårfärg</label></div>
+                <div class="sheet-item sheet-tiny"><input type="text" name="attr_haircolour" /></div>
+                <div class="sheet-item sheet-puny"></div>
+                <div class="sheet-item sheet-little"><label>Ögonfärg</label></div>
+                <div class="sheet-item sheet-tiny"><input type="text" name="attr_eyecolour" /></div>
+                <div class="sheet-item sheet-puny"><label>Ålder</label></div>
+                <div class="sheet-item sheet-tiny"><input type="text" name="attr_age" /></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Main Sheet First Tier -->
+<div class="sheet-3colrow">
+
+    <!-- Left Column -->
+    <div class="sheet-col sheet-skills">
+    <hr>
+        <h3>Färdigheter</h3>
+        <table>
+            <tr>
+                <th><b>Stridsfärdigheter</b></th>
+                <th><b>T6</b></th>
+            </tr>
+            <tr>
+                <td>Armborst (UPP) </td>
+                <td><input type="text" name="attr_armborst" value="0" /></td>
+
+            </tr>
+            <tr>
+                <td>Båge (UPP) </td>
+                <td><input type="text" name="attr_båge1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Dolk (RÖR) </td>
+                <td><input type="text" name="attr_dolk1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Kastvapen (UPP) </td>
+                <td><input type="text" name="attr_kastvapen1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Klubba (UPP) </td>
+                <td><input type="text" name="attr_klubba1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Kedjevapen (RÖR) </td>
+                <td><input type="text" name="attr_kedjevapen1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Sköld (RÖR) </td>
+                <td><input type="text" name="attr_sköld1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Slagsmål (STY) </td>
+                <td><input type="text" name="attr_slagsmål1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Spjut (RÖR) </td>
+                <td><input type="text" name="attr_spjut1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Stav (RÖR) </td>
+                <td><input type="text" name="attr_stav1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Svärd (RÖR) </td>
+                <td><input type="text" name="attr_svärd1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Yxa (STY) </td>
+                <td><input type="text" name="attr_yxa1" value="0" /></td>
+            </tr>
+            <!-- Rörelsefärdigheter -->
+            <tr>
+                <th><b>Rörelsefärdigheter</b></th>
+                <th><b>T6</b></th>
+            </tr>
+            <tr>
+                <td>Dansa (RÖR) </td>
+                <td><input type="text" name="attr_dansa1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Fingerfärdighet (RÖR) </td>
+                <td><input type="text" name="attr_fingerfärdighet1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Gömma (PSY) </td>
+                <td><input type="text" name="attr_gömma1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Hoppa (RÖR) </td>
+                <td><input type="text" name="attr_hoppa1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Klättra (RÖR) </td>
+                <td><input type="text" name="attr_klättra1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Låsdyrkning (PSY)</td>
+                <td><input type="text" name="attr_låsdyrkning1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Simma (TÅL)</td>
+                <td><input type="text" name="attr_simma1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Smyga (RÖR) </td>
+                <td><input type="text" name="attr_smyga1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Undvika (RÖR) </td>
+                <td><input type="text" name="attr_undvika1" value="0" /></td>
+            </tr>
+            <!-- Sociala färdigheter -->
+            <tr>
+                <th><b>Sociala färdigheter</b></th>
+                <th><b>T6</b></th>
+            </tr>
+            <tr>
+                <td>Argumentera (PSY) </td>
+                <td><input type="text" name="attr_argumentera1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Berättarkonst (UTS) </td>
+                <td><input type="text" name="attr_berättarkonst1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Charm (UTS) </td>
+                <td><input type="text" name="attr_charm1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Dupera (UTS) </td>
+                <td><input type="text" name="attr_dupera1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Genomskåda (PSY) </td>
+                <td><input type="text" name="attr_genomskåda1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Hovliv (PSY)</td>
+                <td><input type="text" name="attr_hovliv1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Injaga Fruktan (PSY) </td>
+                <td><input type="text" name="attr_injagafruktan1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Ledarskap (UTS) </td>
+                <td><input type="text" name="attr_ledarskap1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Skumraskaffärer (PSY)</td>
+                <td><input type="text" name="attr_skumraskaffärer1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Spel & Dobbel (PSY) </td>
+                <td><input type="text" name="attr_speldobbel1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Sång & Musik (UTS) </td>
+                <td><input type="text" name="attr_sångmusik1" value="0" /></td>
+            </tr>
+            <tr>
+                <th><b>Övriga färdigheter</b></th>
+                <th><b>T6</b></th>
+            </tr>
+        </table>
+
+        <fieldset class="repeating_basicskills">
+            <table><tr>
+                <td>
+                    <div class="sheet-row">
+                        <div class="sheet-item sheet-bigger">
+                            <input class="sheet-baseinfo" type="text" name="attr_basicskillname"/>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="text" name="attr_basicskill" value="0" /></td>
+                </table></tr>
+        </fieldset>
+
+        <h3>Fokus</h3>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-little" style="width:100%;">
+                <input type="checkbox" name="attr_fokus1" />
+                <input type="checkbox" name="attr_fokus2" />
+                <input type="checkbox" name="attr_fokus3" />
+                <input type="checkbox" name="attr_fokus4" />
+                <input type="checkbox" name="attr_fokus5" />
+                +1t6 1 Fokus, +2t6 3 Fokus
+            </div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-little" style="width:100%;">
+                <input type="checkbox" name="attr_fokus6" />
+                <input type="checkbox" name="attr_fokus7" />
+                <input type="checkbox" name="attr_fokus8" />
+                <input type="checkbox" name="attr_fokus9" />
+                <input type="checkbox" name="attr_fokus10" />
+                +3t6 6 Fokus, +4t6 10 Fokus
+            </div>
+        </div>
+        <div class="sheet-row">
+           Välmående <input class="sheet-item sheet-little" type="text" name="attr_välmående"/>
+        </div>
+        <div class="sheet-row">
+        </div>
+        <h3>Primärt Karaktärsdrag</h3>
+        <div class="sheet-item"><input type="text" name="attr_primärtkaraktärsdrag" /></div>
+            <div class="sheet-row">
+                <input type="checkbox" name="attr_primärtkaraktärsdragbox1" />
+                <div class="sheet-item" style="width:5%"><label>I</label></div>
+                <div class="sheet-item" style="width:90%"><input type="text" name="attr_primärtkaraktärsdragI" /></div>
+            </div>
+            <div class="sheet-row">
+                <input type="checkbox" name="attr_primärtkaraktärsdragbox2" />
+                <div class="sheet-item" style="width:5%"><label>II</label></div>
+                <div class="sheet-item" style="width:90%"><input type="text" name="attr_primärtkaraktärsdragII" /></div>
+            </div>
+            <div class="sheet-row">
+                <input type="checkbox" name="attr_primärtkaraktärsdragbox3" />
+                <div class="sheet-item" style="width:5%"><label>III</label></div>
+                <div class="sheet-item" style="width:90%"><input type="text" name="attr_primärtkaraktärsdragIII" /></div>
+            </div>
+
+        <h3>Sekundärt Karaktärsdrag</h3>
+        <div class="sheet-item"><input type="text" name="attr_sekundärtkaraktärsdrag" /></div>
+            <div class="sheet-row">
+                <input type="checkbox" name="attr_sekundärtkaraktärsdragbox1" />
+                <div class="sheet-item" style="width:5%"><label>I</label></div>
+                <div class="sheet-item" style="width:90%"><input type="text" name="attr_sekundärtkaraktärsdragI" /></div>
+            </div>
+            <div class="sheet-row">
+                <input type="checkbox" name="attr_sekundärtkaraktärsdragbox2" />
+                <div class="sheet-item" style="width:5%"><label>II</label></div>
+                <div class="sheet-item" style="width:90%"><input type="text" name="attr_sekundärtkaraktärsdragII" /></div>
+            </div>
+            <div class="sheet-row">
+                <input type="checkbox" name="attr_sekundärtkaraktärsdragbox3" />
+                <div class="sheet-item" style="width:5%"><label>III</label></div>
+                <div class="sheet-item" style="width:90%"><input type="text" name="attr_sekundärtkaraktärsdragIII" /></div>
+            </div>
+    </div>
+
+    <!-- Mid Column / Characteristics -->
+    <div class="sheet-col sheet-characteristics">
+        <h3>Grundattribut</h3>
+        <label>Styrka (STY)</label>
+               <input type="text" name="attr_sty1" value="0"/>
+        <label>Tålighet (TÅL)</label>
+               <input type="text" name="attr_tål1" value="0"/>
+        <label>Rörlighet (RÖR)</label>
+               <input type="text" name="attr_rör1" value="0"/>
+        <label>Uppfattning (UPP)</label>
+               <input type="text" name="attr_upp1" value="0"/>
+        <label>Vilja (VIL)</label>
+               <input type="text" name="attr_vil1" value="0"/>
+        <label>Psyke (PSY)</label>
+               <input type="text" name="attr_psy1" value="0"/>
+        <label>Visdom (VIS)</label>
+               <input type="text" name="attr_vis1" value="0"/>
+        <label>Utstrålning (UTS)</label>
+            <input type="text" name="attr_uts1" value="0"/>
+            <hr>
+        <label>Livskraft</label>
+               <input type="text" name="attr_livskraft2" value="0"/>
+        <label>Självkontroll</label>
+               <input type="text" name="attr_självkontroll2" value="0"/>
+        <label>Intryck</label>
+               <input type="text" name="attr_intryck2" value="0"/>
+        <label>Kroppsbyggnad</label>
+               <input type="text" name="attr_kroppsbyggnad2" value="0"/>
+        <label>Reaktion</label>
+               <input type="text" name="attr_reaktion2" value="0"/>
+        <label>Vaksamhet</label>
+               <input type="text" name="attr_vaksamhet2" value="0"/>
+        <label>Förflyttning</label>
+                <input type="text" name="attr_förflyttning2" value="0"/>
+    </div>
+
+    <!-- Right Column -->
+    <div class="sheet-col sheet-skills">
+    <hr>
+        <h3>Färdigheter</h3>
+        <table>
+            <tr>
+                <th><b>Kunskapsfärdigheter</b></th>
+                <th><b>T6</b></th>
+            </tr>
+            <tr>
+                <td>Filosofi (VIS)</td>
+                <td><input type="text" name="attr_filosofi1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Geografi (VIS)</td>
+                <td><input type="text" name="attr_geografi1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Gifter & Droger (VIS)</td>
+                <td><input type="text" name="attr_gifterdroger1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Handel (VIS) </td>
+                <td><input type="text" name="attr_handel1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Historia (VIS)</td>
+                <td><input type="text" name="attr_historia1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Kalkylera (VIS)</td>
+                <td><input type="text" name="attr_kalkylera1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Kirurgi (VIS)</td>
+                <td><input type="text" name="attr_kirurgi1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Krigsföring (VIS)</td>
+                <td><input type="text" name="attr_krigsföring1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Kulturkännedom (VIS)</td>
+                <td><input type="text" name="attr_kulturkännedom1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Lagkunskap (VIS)</td>
+                <td><input type="text" name="attr_lagkunskap1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Läkekonst (VIS)</td>
+                <td><input type="text" name="attr_läkekonst1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Ockultism (VIS)</td>
+                <td><input type="text" name="attr_ockultism1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Teologi (VIS)</td>
+                <td><input type="text" name="attr_teologi1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Teoretisk magi (VIS)</td>
+                <td><input type="text" name="attr_teoretiskmagi1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Undervisa (VIS)</td>
+                <td><input type="text" name="attr_undervisa1" value="0" /></td>
+            </tr>
+            <tr>
+                <th><b>Vildmarksfärdigheter</b></th>
+                <th><b>T6</b></th>
+            </tr>
+            <tr>
+                <td>Genomsöka (UPP) </td>
+                <td><input type="text" name="attr_genomsöka1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Jakt & Fiske (PSY)</td>
+                <td><input type="text" name="attr_jaktfiske1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Köra vagn (RÖR) </td>
+                <td><input type="text" name="attr_köravagn1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Marsch (TÅL) </td>
+                <td><input type="text" name="attr_marsch1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Naturlära (PSY)</td>
+                <td><input type="text" name="attr_naturlära1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Navigation (PSY)</td>
+                <td><input type="text" name="attr_navigation1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Orientering (PSY) </td>
+                <td><input type="text" name="attr_orientering1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Rida (RÖR) </td>
+                <td><input type="text" name="attr_rida1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Sjömannskap (PSY)</td>
+                <td><input type="text" name="attr_sjömannskap1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Speja (UPP) </td>
+                <td><input type="text" name="attr_speja1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Spåra (UPP) </td>
+                <td><input type="text" name="attr_spåra1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Vildmarksvana (PSY)</td>
+                <td><input type="text" name="attr_vildmarksvana1" value="0" /></td>
+            </tr>
+            <tr>
+                <th><b>Mystikfärdigheter</b></th>
+                <th><b>T6</b></th>
+            </tr>
+            <tr>
+                <td>Cermoni (VIS)</td>
+                <td><input type="text" name="attr_cermoni1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Förnimma (VIS)</td>
+                <td><input type="text" name="attr_förnimma1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Förvränga (VIS)</td>
+                <td><input type="text" name="attr_förvränga1" value="0" /></td>
+            </tr>
+            <tr>
+                <td>Kanalisera (VIS)</td>
+                <td><input type="text" name="attr_kanalisera1" value="0" /></td>
+            </tr>
+            <tr>
+                <th><b>Språkfärdigheter</b></th>
+                <th><b>T</b></th>
+
+                <th><b>L/S</b></th>
+            </tr>
+        </table>
+        <fieldset class="repeating_advancedskills">
+            <table>
+                <tr>
+                    <td>
+                        <div class="sheet-row">
+                            <div class="sheet-item sheet-bigger">
+                                <input class="sheet-baseinfo" type="text" name="attr_advancedskillname"/>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="checkbox" name="attr_advancedskillbox2" value="Talar" /></td>
+                    <td><input type="checkbox" name="attr_advancedskillbox3" value="Läsa&Skriva" /></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <hr>
+
+        <!-- ATTENTION PSYKERS AHEAD! -->
+
+        <h3>Avtrubbning</h3>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-little" style="width:100%;">
+                <input type="checkbox" name="attr_utsatthet1" value="5" />
+                <input type="checkbox" name="attr_utsatthet2" value="5" />
+                <input type="checkbox" name="attr_utsatthet3" value="5" />
+                <input type="checkbox" name="attr_utsatthet4" value="5" />
+                <input type="checkbox" name="attr_utsatthet5" value="5" />
+                <input type="text" class="sheet-item sheet-tiny" name="attr_Uttsathet" value="(@{utsatthet1}+@{utsatthet2}+@{utsatthet3}+@{utsatthet4}+@{utsatthet5})" disabled="true"/>
+                Utsatthet
+            </div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-little" style="width:100%;">
+                <input type="checkbox" name="attr_våld1" value="5" />
+                <input type="checkbox" name="attr_våld2" value="5" />
+                <input type="checkbox" name="attr_våld3" value="5" />
+                <input type="checkbox" name="attr_våld4" value="5" />
+                <input type="checkbox" name="attr_våld5" value="5" />
+                <input type="text" class="sheet-item sheet-tiny" name="attr_Våld" value="(@{våld1}+@{våld2}+@{våld3}+@{våld4}+@{våld5})" disabled="true"/>
+                Våld
+            </div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-little" style="width:100%;">
+                <input type="checkbox" name="attr_övernaturligt1" value="5" />
+                <input type="checkbox" name="attr_övernaturligt2" value="5" />
+                <input type="checkbox" name="attr_övernaturligt3" value="5" />
+                <input type="checkbox" name="attr_övernaturligt4" value="5" />
+                <input type="checkbox" name="attr_övernaturligt5" value="5" />
+                <input type="text" class="sheet-item sheet-tiny" name="attr_Övernaturligt" value="(@{övernaturligt1}+@{övernaturligt2}+@{övernaturligt3}+@{övernaturligt4}+@{övernaturligt5})" disabled="true"/>
+                Övernaturligt
+            </div>
+        </div>
+        <div class="sheet-row">
+        </div>
+        <!-- Mutations anyone? -->
+        <h3>Belastning</h3>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-puny"></div>
+                <div class="sheet-item sheet-med"><label>Belastning</label></div>
+                <div class="sheet-item sheet-small"><label>Avdrag</label></div>
+                <div class="sheet-item sheet-med"><label>Grunduttmattning</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-puny"><input type="checkbox" name="attr_belastning1"/></div>
+                <div class="sheet-item sheet-med"><label>0-8</label></div>
+                <div class="sheet-item sheet-small"><label>-</label></div>
+                <div class="sheet-item sheet-med"><label>±0</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-puny"><input type="checkbox" name="attr_belastning2"/></div>
+                <div class="sheet-item sheet-med"><label>9-16</label></div>
+                <div class="sheet-item sheet-small"><label>-</label></div>
+                <div class="sheet-item sheet-med"><label>+3</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-puny"><input type="checkbox" name="attr_belastning3"/></div>
+                <div class="sheet-item sheet-med"><label>17-24</label></div>
+                <div class="sheet-item sheet-small"><label>-1T6</label></div>
+                <div class="sheet-item sheet-med"><label>+3</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-puny"><input type="checkbox" name="attr_belastning4"/></div>
+                <div class="sheet-item sheet-med"><label>25-32</label></div>
+                <div class="sheet-item sheet-small"><label>-2T6</label></div>
+                <div class="sheet-item sheet-med"><label>+3</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-puny"><input type="checkbox" name="attr_belastning5"/></div>
+                <div class="sheet-item sheet-med"><label>33-40</label></div>
+                <div class="sheet-item sheet-small"><label>-2T6</label></div>
+                <div class="sheet-item sheet-med"><label>+6</label></div>
+            </div>
+
+            <div class="sheet-row"></div>
+
+            <h3>Utmattning</h3>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-med"><label>Utmattning:</label></div>
+                <div class="sheet-item sheet-small"><input type="text" name="attr_headuttmattning" /></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-large"><label>Grunduttmattning:</label></div>
+                <div class="sheet-item sheet-small"><input type="text" name="attr_headgrunduttmattning" /></div>
+            </div>
+
+
+    </div>
+</div>
+<div class="sheet-2colrow">
+    <div class="sheet-col">
+        <h3>Närstridsvapen</h3>
+        <fieldset class="repeating_meleeweapons">
+            <div class="sheet-quickborder">
+                <div class="sheet-row">
+                    <div class="sheet-item sheet-tiny"><label>Vapen:</label></div>
+                    <div class="sheet-item sheet-big"><input type="text" name="attr_meleeweaponname" /></div>
+                    <div class="sheet-item sheet-small"><label>Färdighet:</label></div>
+                    <div class="sheet-item sheet-small"><input type="text" name="attr_meleeweaponskill" /></div>
+                </div>
+                <div class="sheet-row">
+                    <div class="sheet-item sheet-tiny"><label>Hugg:</label></div>
+                    <div class="sheet-item sheet-small"><input type="text" name="attr_meleeHugg" /></div>
+                    <div class="sheet-item sheet-tiny"><label>Kross:</label></div>
+                    <div class="sheet-item sheet-small"><input type="text" name="attr_meleeKross" /></div>
+                    <div class="sheet-item sheet-tiny"><label>Stick:</label></div>
+                    <div class="sheet-item sheet-small"><input type="text" name="attr_meleeStick" /></div>
+                </div>
+                <div class="sheet-row">
+                    <div class="sheet-item sheet-small"><label>Egenskaper:</label></div>
+                    <div class="sheet-item sheet-morebig"><input type="text" name="attr_meleeegenskaper" /></div>
+                    </div>
+                </div>
+        </fieldset>
+
+        <div class="sheet-row">
+            <div class="sheet-item sheet-med"><label>Vapenhand:</label></div>
+            <div class="sheet-item sheet-med"><input type="text" name="attr_handedness" /></div>
+            <div class="sheet-item sheet-med"><label>Grundskada:</label></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_mindmg" /></div>
+        </div>
+
+        <!-- Armor! -->
+        <h3>Kroppsdelar</h3>
+        <div class="sheet-armourblock">
+
+        </div>
+           <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>Träfftabell</label></div>
+            <div class="sheet-item sheet-small"><label>Rustning</label></div>
+            <div class="sheet-item sheet-puny"><label>Bel.</label></div>
+            <div class="sheet-item sheet-tiny"><label>Hugg</label></div>
+            <div class="sheet-item sheet-tiny"><label>Kross</label></div>
+            <div class="sheet-item sheet-tiny"><label>Stick</label></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>1 Huvud</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_rustninghuvud" /></div>
+            <div class="sheet-item sheet-puny"><input type="text" name="attr_rustninghuvudbel" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustninghuvudhugg" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustninghuvudkross" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustninghuvudstick" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>2-4 Torso</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_rustningtorso" /></div>
+            <div class="sheet-item sheet-puny"><input type="text" name="attr_rustningtorsobel" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustningtorsohugg" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustningtorsokross" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustningtorsostick" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>5-6 V. Arm</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_rustningvarm" /></div>
+            <div class="sheet-item sheet-puny"><input type="text" name="attr_rustningvarmbel" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustningvarmhugg" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustningvarmkross" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustningvarmstick" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>7-8 H. Arn</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_rustningharm" /></div>
+            <div class="sheet-item sheet-puny"><input type="text" name="attr_rustningharmbel" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustningharmhugg" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustningharmkross" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustningharmstick" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>9 V. Ben</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_rustningvben" /></div>
+            <div class="sheet-item sheet-puny"><input type="text" name="attr_rustningvbenbel" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustningvbenhugg" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustningvbenkross" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustningvbenstick" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>10 H. Ben</label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_rustninghben" /></div>
+            <div class="sheet-item sheet-puny"><input type="text" name="attr_rustninghbenbel" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustninghbenhugg" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustninghbenkross" /></div>
+            <div class="sheet-item sheet-tiny"><input type="text" name="attr_rustninghbenstick" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>Grundrustn. </label></div>
+            <div class="sheet-item sheet-small"><input type="text" name="attr_grundrustning" /></div>
+            <div class="sheet-item sheet-puny"><input type="text" name="attr_totalbel" /></div>
+            <div class="sheet-item sheet-tiny"></div>
+            <div class="sheet-item sheet-tiny"></div>
+            <div class="sheet-item sheet-tiny"></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>Träfftabell</label></div>
+            <div class="sheet-item sheet-med"><label>Sår & Påverkan</label></div>
+            <div class="sheet-item sheet-med"><label>Andra skador</label></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>1 Huvud</label></div>
+            <div class="sheet-item sheet-tiny">
+                <input type="checkbox" name="attr_rustninghuvudcheck1" />
+                <input type="checkbox" name="attr_rustninghuvudcheck2" />
+                <input type="checkbox" name="attr_rustninghuvudcheck3" />
+            </div>
+            <div class="sheet-item sheet-small"><label>Chockslag</label></div>
+            <div class="sheet-item sheet-med"><input type="text" name="attr_rustninghuvudskada" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>2-4 Torso</label></div>
+            <div class="sheet-item sheet-tiny">
+                <input type="checkbox" name="attr_rustningtorsocheck1" />
+                <input type="checkbox" name="attr_rustningtorsocheck2" />
+                <input type="checkbox" name="attr_rustningtorsocheck3" />
+            </div>
+            <div class="sheet-item sheet-small"><label>Dödsslag</label></div>
+            <div class="sheet-item sheet-med"><input type="text" name="attr_rustningtorsoskada" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>5-6 V. Arm</label></div>
+            <div class="sheet-item sheet-tiny">
+                <input type="checkbox" name="attr_rustningvarmcheck1" />
+                <input type="checkbox" name="attr_rustningvarmcheck2" />
+                <input type="checkbox" name="attr_rustningvarmcheck3" />
+            </div>
+            <div class="sheet-item sheet-small"><label>Strids</label></div>
+            <div class="sheet-item sheet-med"><input type="text" name="attr_rustningvarmskada" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>7-8 H. Arn</label></div>
+            <div class="sheet-item sheet-tiny">
+                <input type="checkbox" name="attr_rustningharmcheck1" />
+                <input type="checkbox" name="attr_rustningharmcheck2" />
+                <input type="checkbox" name="attr_rustningharmcheck3" />
+            </div>
+            <div class="sheet-item sheet-small"><label>Strids</label></div>
+            <div class="sheet-item sheet-med"><input type="text" name="attr_rustningharmskada" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>9 V. Ben</label></div>
+            <div class="sheet-item sheet-tiny">
+                <input type="checkbox" name="attr_rustningvbencheck1" />
+                <input type="checkbox" name="attr_rustningvbencheck2" />
+                <input type="checkbox" name="attr_rustningvbencheck3" />
+            </div>
+            <div class="sheet-item sheet-small"><label>Förf.</label></div>
+            <div class="sheet-item sheet-med"><input type="text" name="attr_rustningvbenskada" /></div>
+        </div>
+        <div class="sheet-row">
+            <div class="sheet-item sheet-small"><label>10 H. Ben</label></div>
+            <div class="sheet-item sheet-tiny">
+                <input type="checkbox" name="attr_rustninghbencheck1" />
+                <input type="checkbox" name="attr_rustninghbencheck2" />
+                <input type="checkbox" name="attr_rustninghbencheck3" />
+            </div>
+            <div class="sheet-item sheet-small"><label>Förf</label></div>
+            <div class="sheet-item sheet-med"><input type="text" name="attr_rustninghbenskada" /></div>
+        </div>
+    </div>
+
+    <!-- Right Side -->
+
+    <div class="sheet-col">
+        <h3>Avståndsvapen</h3>
+        <fieldset class="repeating_rangeweapons">
+            <div class="sheet-quickborder">
+                <div class="sheet-row">
+                    <div class="sheet-item sheet-tiny"><label>Vapen:</label></div>
+                    <div class="sheet-item sheet-big"><input type="text" name="attr_rangedweaponname" /></div>
+                    <div class="sheet-item sheet-small"><label>Färdighet:</label></div>
+                    <div class="sheet-item sheet-small"><input type="text" name="attr_rangedweaponskill" /></div>
+                </div>
+                <div class="sheet-row">
+                    <div class="sheet-item sheet-small"><label>Räckvidd:</label></div>
+                    <div class="sheet-item sheet-small"><input type="text" name="attr_range" /></div>
+                    <div class="sheet-item sheet-puny"><label>Typ:</label></div>
+                    <div class="sheet-item sheet-tiny"><input type="text" name="attr_rangedtype" /></div>
+                    <div class="sheet-item sheet-tiny"><label>Skada:</label></div>
+                    <div class="sheet-item sheet-small"><input type="text" name="attr_rangeddamage" /></div>
+                </div>
+                <div class="sheet-row">
+                    <div class="sheet-item sheet-small"><label>Egenskaper:</label></div>
+                    <div class="sheet-item sheet-morebig"><input type="text" name="attr_rangedegenskaper" /></div>
+                    </div>
+                </div>
+        </fieldset>
+
+
+        <h3>Skadeintervall</h3>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-small"></div>
+                <div class="sheet-item sheet-small"><label>Skada</label></div>
+                <div class="sheet-item sheet-small"><label>Utmattning</label></div>
+                <div class="sheet-item sheet-med"><label>Skadetabell</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-small"></div>
+                <div class="sheet-item sheet-small"><label>1-4</label></div>
+                <div class="sheet-item sheet-small"><label>+1</label></div>
+                <div class="sheet-item sheet-med"><label>-</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-small"></div>
+                <div class="sheet-item sheet-small"><label>5-9</label></div>
+                <div class="sheet-item sheet-small"><label>+2</label></div>
+                <div class="sheet-item sheet-med"><label>-</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-small"></div>
+                <div class="sheet-item sheet-small"><label>10-14</label></div>
+                <div class="sheet-item sheet-small"><label>+4</label></div>
+                <div class="sheet-item sheet-med"><label>1T10</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-small"></div>
+                <div class="sheet-item sheet-small"><label>15-19</label></div>
+                <div class="sheet-item sheet-small"><label>+6</label></div>
+                <div class="sheet-item sheet-med"><label>1T10+2</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-small"></div>
+                <div class="sheet-item sheet-small"><label>20-24</label></div>
+                <div class="sheet-item sheet-small"><label>+8</label></div>
+                <div class="sheet-item sheet-med"><label>1T10+4</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-small"></div>
+                <div class="sheet-item sheet-small"><label>25-29</label></div>
+                <div class="sheet-item sheet-small"><label>+10</label></div>
+                <div class="sheet-item sheet-med"><label>1T10+6</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-small"></div>
+                <div class="sheet-item sheet-small"><label>30-34</label></div>
+                <div class="sheet-item sheet-small"><label>+12</label></div>
+                <div class="sheet-item sheet-med"><label>1T10+8</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-small"></div>
+                <div class="sheet-item sheet-small"><label>35-39</label></div>
+                <div class="sheet-item sheet-small"><label>+14</label></div>
+                <div class="sheet-item sheet-med"><label>1T10+10</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-small"></div>
+                <div class="sheet-item sheet-small"><label>40-44</label></div>
+                <div class="sheet-item sheet-small"><label>+16</label></div>
+                <div class="sheet-item sheet-med"><label>1T10+12</label></div>
+            </div>
+            <div class="sheet-row">
+                <div class="sheet-item sheet-small"></div>
+                <div class="sheet-item sheet-small"><label>(+5)</label></div>
+                <div class="sheet-item sheet-small"><label>(+2)</label></div>
+                <div class="sheet-item sheet-med"><label>(+2)</label></div>
+            </div>
+
+        <h3>Utrustning</h3>
+
+        <textarea name="attr_gear"></textarea>
+    </div>
+</div>
+
+<hr />
+<!-- Footer Stuff -->
+    <div class="1colrow sheet-tablecontainer">
+            <div class="sheet-footer sheet-mainleft sheet-tablecell">
+                <h3>Smärta</h3>
+                <div class="sheet-innerfooter sheet-armourblock">
+                    <label>-1T6<label> <input type="checkbox" name="attr_smärta1" />
+                    <label>-3T6<label> <input type="checkbox" name="attr_smärta3" />
+                </div>
+                <div class="sheet-innerfooter sheet-armourblock">
+                    <label>-2T6<label> <input type="checkbox" name="attr_smärta2" />
+                    <label>-4T6<label> <input type="checkbox" name="attr_smärta4" />
+                </div>
+            </div>
+
+            <div class="sheet-footer sheet-tablecell" style="width:18%;">
+                <h3>Blödning</h3>
+                <div class="sheet-innerfooter" style="width:95%;">
+                    <p>Blödningstakt: </p>  <input type="text" name="attr_blödningstakt" />
+                </div>
+                <div class="sheet-innerfooter" style="width:95%;">
+                    <p>Svårighet: </p>  <input type="text" name="attr_blödningsvårighet" />
+                </div>
+                <div class="sheet-innerfooter" style="width:95%;">
+                    <p><b>Varje runda:</b> Uttmattningen ökar med Blödningstakten</p>
+                </div>
+            </div>
+
+           <div class="sheet-footer sheet-tablecell" style="width:18%;">
+                <h3>Infektion</h3>
+                <div class="sheet-innerfooter" style="width:95%;">
+                    <p>infektionsnivå: </p>  <input type="text" name="attr_infektionsnivå" />
+                </div>
+                <div class="sheet-innerfooter" style="width:95%;">
+                    <p>Svårighet: </p>  <input type="text" name="attr_infektionsvårighet" />
+                </div>
+                <div class="sheet-innerfooter" style="width:95%;">
+                    <p><b>Varje dygn:</b> Dödsslag mot svårigheten. Nivån medför Grundutmattning</p>
+                </div>
+            </div>
+
+            <div class="sheet-footer sheet-tablecell" style="width:18%;">
+                <h3>Inre Skada</h3>
+                <div class="sheet-innerfooter" style="width:95%;">
+                    <input type="text" name="attr_blödningstakt" />
+                </div>
+                <div class="sheet-innerfooter" style="width:95%;">
+                    <p><b>Varje dygn:</b> Slå 1T10 på tabellen för inre skada</p>
+                </div>
+            </div>
+          </div>
+    </div>
+<hr />
+    <!-- XP -->
+<div class="1colrow">
+    <div class="colrow">
+        <h3>Anteckningar:</h3>
+        <textarea name="attr_othernotes"></textarea>
+    </div>
+</div>
+
+<!-- Charsheet End -->
+</div>
